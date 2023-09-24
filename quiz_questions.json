@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Which language is Ansible primarily written in?",
+        "options": ["Python", "Ruby", "Java", "Go"],
+        "answers": [0]
+    },
+    {
+        "question": "What is the primary configuration file for Ansible called?",
+        "options": ["ansible.cfg", "config.yml", "ansible.json", "setup.cfg"],
+        "answers": [0]
+    },
+    {
+        "question": "Which Ansible component is responsible for running the automation tasks?",
+        "options": ["Inventory", "Playbook", "Role", "Controller"],
+        "answers": [3]
+    },
+    {
+        "question": "In Ansible, what is the default location for roles?",
+        "options": ["/etc/ansible/roles", "/usr/share/ansible/roles", "/var/lib/ansible/roles", "/home/ansible/roles"],
+        "answers": [0]
+    },
+    {
+        "question": "Which module in Ansible is used to copy files?",
+        "options": ["file", "copy", "transfer", "send"],
+        "answers": [1]
+    },
+    {
+        "question": "Which directive in Ansible defines the hosts that the tasks should run on?",
+        "options": ["hosts", "target", "machines", "nodes"],
+        "answers": [0]
+    },
+    {
+        "question": "What is the command to install a role from Ansible Galaxy?",
+        "options": ["ansible-galaxy install", "ansible-role install", "ansible-get role", "ansible-pull role"],
+        "answers": [0]
+    },
+    {
+        "question": "Which Ansible module is used to manage packages using `yum`?",
+        "options": ["yum", "rpm", "package", "dandified_yum"],
+        "answers": [0]
+    },
+    {
+        "question": "In which directory does Ansible look for custom modules by default?",
+        "options": ["/usr/share/ansible/plugins/modules", "/etc/ansible/modules", "/var/lib/ansible/modules", "/home/ansible/modules"],
+        "answers": [0]
+    },
+    {
+        "question": "Which Ansible module is used to execute shell commands on targets?",
+        "options": ["exec", "run", "shell", "command"],
+        "answers": [2]
+    },
+    {
+        "question": "What does 'idempotence' mean in the context of Ansible?",
+        "options": ["Running tasks in parallel", "Ensuring tasks are only run once", "Achieving the same result regardless of how many times a task is run", "Executing tasks in a specific order"],
+        "answers": [2]
+    },
+    {
+        "question": "Which file in an Ansible role contains the main list of tasks to be executed?",
+        "options": ["main.yml in the tasks directory", "main.yml in the root directory", "tasks.yml in the tasks directory", "execute.yml in the tasks directory"],
+        "answers": [0]
+    },
+    {
+        "question": "Which Ansible command is used to test the connectivity to hosts?",
+        "options": ["ansible-ping", "ansible-test", "ansible-check", "ansible all -m ping"],
+        "answers": [3]
+    },
+    {
+        "question": "Which term in Ansible refers to a list of hosts where tasks should be executed?",
+        "options": ["Controller", "Inventory", "Playbook", "Module"],
+        "answers": [1]
+    },
+    {
+        "question": "What is the default inventory file location in Ansible?",
+        "options": ["/etc/ansible/hosts", "/usr/share/ansible/hosts", "/var/lib/ansible/hosts", "/home/ansible/hosts"],
+        "answers": [0]
+    },
+    {
+        "question": "Which Ansible module is used for templating files?",
+        "options": ["template", "file", "copy", "config"],
+        "answers": [0]
+    },
+    {
+        "question": "In Ansible, what is a reusable set of tasks called?",
+        "options": ["Module", "Role", "Function", "Method"],
+        "answers": [1]
+    },
+    {
+        "question": "Which command in Ansible is used to encrypt sensitive data?",
+        "options": ["ansible-vault", "ansible-encrypt", "ansible-secure", "ansible-lock"],
+        "answers": [0]
+    },
+    {
+        "question": "Which Ansible module is used to manage cron jobs?",
+        "options": ["cron", "schedule", "timer", "job"],
+        "answers": [0]
+    },
+    {
+        "question": "What is the purpose of 'handlers' in Ansible?",
+        "options": ["To handle errors", "To manage inventory", "To restart services when needed", "To define variables"],
+        "answers": [2]
+    },
+    {
+        "question": "Which file in an Ansible role defines the role's dependencies?",
+        "options": ["main.yml in the dependencies directory", "dependencies.yml in the root directory", "meta/main.yml", "requirements.yml in the tasks directory"],
+        "answers": [2]
+    },
+    {
+        "question": "Which Ansible command is used to run ad-hoc commands?",
+        "options": ["ansible-play", "ansible-run", "ansible", "ansible-adhoc"],
+        "answers": [2]
+    },
+    {
+        "question": "Which term refers to a collection of Ansible roles and playbooks?",
+        "options": ["Bundle", "Package", "Galaxy", "Collection"],
+        "answers": [3]
+    },
+    {
+        "question": "In which directory of an Ansible role would you place files to be copied to the target system?",
+        "options": ["templates", "vars", "files", "tasks"],
+        "answers": [2]
+    },
+    {
+        "question": "Which Ansible module is used to gather facts about the target system?",
+        "options": ["info", "collect", "facts", "setup"],
+        "answers": [3]
+    },
+    {
+        "question": "Which directive in Ansible specifies the user that a task should run as?",
+        "options": ["user", "runas", "execute_as", "become"],
+        "answers": [3]
+    },
+    {
+        "question": "What does the 'check' argument do when running an Ansible playbook?",
+        "options": ["Checks syntax of the playbook", "Runs the playbook in dry-run mode", "Verifies the integrity of files", "Checks for updates to roles and modules"],
+        "answers": [1]
+    },
+    {
+        "question": "Which Ansible module is used to manage users on the target system?",
+        "options": ["user", "account", "person", "identity"],
+        "answers": [0]
+    },
+    {
+        "question": "In Ansible, what is the term for a set of hosts grouped together?",
+        "options": ["Cluster", "Group", "Team", "Set"],
+        "answers": [1]
+    },
+    {
+        "question": "Which file in an Ansible role is used to define default values for variables?",
+        "options": ["main.yml in the defaults directory", "vars.yml in the root directory", "defaults.yml in the vars directory", "config.yml in the tasks directory"],
+        "answers": [0]
+    }
+]
